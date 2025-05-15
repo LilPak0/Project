@@ -5,11 +5,15 @@
 }
 
 body{
-    font-family: "Pixelify Sans", sans-serif;
     background-color: #9FFFF5;
 }
 
+h1, h2, h3, h4{
+    font-family: "Pixelify Sans", sans-serif;
+}
+
 header{
+    font-family: "Pixelify Sans", sans-serif;
     padding: 25px;
     box-shadow: 0px 4px 4px 0px rgba(33, 33, 33, 0.25);
     display: flex;
@@ -43,7 +47,6 @@ main{
     margin-left: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 main h1{
@@ -72,4 +75,5 @@ main a{
 
 .photoMyself{
     width: 400px;
+    height: 80%;
 }
